@@ -408,10 +408,15 @@ section .container {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about-me .content {
+  text-align: center;
+}
+
 .about-me .content h3 {
   font-weight: 700;
   font-size: 26px;
   color: #18d26e;
+  margin-bottom: 20px;
 }
 
 .about-me .content ul {
@@ -420,7 +425,7 @@ section .container {
 }
 
 .about-me .content ul li {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   display: flex;
   align-items: center;
 }
@@ -437,7 +442,11 @@ section .container {
 }
 
 .about-me .content p:last-child {
-  margin-bottom: 0;
+  margin-bottom: 20px;
+}
+
+.about-me .row {
+  justify-content: center;
 }
 
 /*--------------------------------------------------------------
@@ -1199,29 +1208,67 @@ section .container {
   margin-bottom: 30px;
 }
 
+/*------------------------------------------------------
+# For the icons for interests
+-------------------------------------------------------*/
+/* Adjustments for three icon boxes in each row */
+/* Add this to your existing CSS styles */
+
 .icon-box {
   text-align: center;
-  padding: 20px;
-  border: 1px solid #ddd; /* Add a border for better visibility */
+  padding: 30px; /* Increase padding as needed */
+  border: 1px solid #ddd;
   border-radius: 30px;
-  background-color: #fff; /* White background for the icon box */
+  background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  width: 500px; /* Increase width as needed */
 }
 
 .icon-box img {
-  width: 30px;
-  height: 30px;
-  margin-bottom: 20px; /* Increased margin for more space */
+  width: 50px;
+  height: 50px;
+  margin-bottom: 20px;
 }
 
 .icon-box h3 {
   font-size: 18px;
-  margin-bottom: 10px; /* Increased margin for more space */
+  margin-bottom: 10px;
 }
 
 .icon-box p {
   font-size: 14px;
   color: #666;
-  margin-bottom: 0; /* Remove default margin for better alignment */
+  margin-bottom: 0;
+}
+
+.icon-box p .proficiency {
+  color: #8bc34a; /* Light green */
+  font-weight: bold; /* Make 'Proficiency' bold */
+}
+
+.icon-box p .experience {
+  color: #4caf50; /* Dark green */
+  font-weight: bold; /* Make 'Experience' bold */
+}
+
+.interests .container {
+  text-align: center;
+}
+
+.interests .section-title h2 {
+  font-size: 36px;
+  color: #18d26e;
+  margin-bottom: 30px;
+}
+
+.interests .row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.interests .col-lg-6 {
+  flex-basis: 48%;
+  margin-bottom: 20px;
 }
