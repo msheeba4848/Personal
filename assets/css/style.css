@@ -1272,3 +1272,28 @@ section .container {
   flex-basis: 48%;
   margin-bottom: 20px;
 }
+
+/* Add your custom styles here */
+
+/*------------------------------------------------------
+# For the Resume Box
+-------------------------------------------------------*/
+
+.resume-box {
+  margin-top: 20px;
+  text-align: center
+}
+
+.resume-download a {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.resume-download a:hover {
+  background-color: #2980b9;
+}
