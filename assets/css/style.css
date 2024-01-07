@@ -1287,7 +1287,7 @@ section .container {
 .resume-download a {
   display: inline-block;
   padding: 10px 15px;
-  background-color: #3498db;
+  background-color: #18d26e;
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
@@ -1295,5 +1295,5 @@ section .container {
 }
 
 .resume-download a:hover {
-  background-color: #2980b9;
+  background-color: #1a6da4;
 }
